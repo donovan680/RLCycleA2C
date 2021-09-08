@@ -22,8 +22,13 @@ Getting Started
 To install:
 
 conda create --name myenv python=3.6.9 pip
+
 conda activate myenv
+
 git clone https://github.com/cyoon1729/RLcycle.git
+
 cd RLcycle
+
 pip install -U -r requirements.txt
+
 pip install -e .
